@@ -6,7 +6,9 @@ import (
 	"os"
 )
 
-func main() {
+func dup1() {
+	fmt.Println("version 1")
+
 	counts := make(map[string]int)
 	input := bufio.NewScanner(os.Stdin)
 	for input.Scan() {
@@ -18,4 +20,5 @@ func main() {
 			fmt.Printf("%d\t%s\n", n, line)
 		}
 	}
+
 }
