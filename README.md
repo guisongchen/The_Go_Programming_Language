@@ -1,1 +1,1 @@
-Hands on Golang. Playground of "The Go Programming Language".
+Hands on Golang. Playground of "The Go Programming Language" and "Go web programming".
